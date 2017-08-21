@@ -17,9 +17,9 @@ namespace DALRotas.Model
         public string Senha { get; set; }
         public int IdPerfilUsuario { get; set; }
         public int  IdSituacaoUsuario { get; set; }
-        public string CadastradoPor { get; set; }
-        public DateTime DtCadastro { get; set; }
-        public string AlteradoPor { get; set; }
+        public int IdInclusao { get; set; }
+        public DateTime DtInclusao { get; set; }
+        public int IdAlteracao { get; set; }
         public DateTime DtAlteracao { get; set; }
     }
 }
