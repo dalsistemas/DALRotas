@@ -15,6 +15,7 @@ namespace DALRotas.Model
         public string Login { get; set; }
         public string Senha { get; set; }
         public int IdPerfilUsuario { get; set; }
+        public int  IdSituacaoUsuario { get; set; }
 
     }
 }
